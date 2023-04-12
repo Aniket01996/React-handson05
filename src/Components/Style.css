@@ -1,0 +1,48 @@
+*{
+    font-family: 'Sedgwick Ave Display', cursive;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient( darkseagreen, lightgreen, chartreuse, green, darkgreen);
+    background-attachment: fixed;
+
+}
+.card1,.card2{
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.card1{
+    border: 10px solid orangered;
+    background-color: dodgerblue;
+}
+.card2{
+    border:10px ridge crimson;
+    background-color: blueviolet;
+    font-weight: bold;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+
+.compo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;   
+}
